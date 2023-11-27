@@ -30,3 +30,15 @@ pip install -r requirements.txt
 
 ```
 
+
+Build Docker Image 
+```
+docker build -t <image_name>:<tagname> .
+```
+> Note: Image name for docker must be in lowercase
+
+
+To list docker image 
+```
+docker images
+```
