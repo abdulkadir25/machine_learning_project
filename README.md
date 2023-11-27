@@ -30,6 +30,12 @@ pip install -r requirements.txt
 
 ```
 
+To Set up CI/CD pipeline in heroku we need 3 information
+1. HEROKU_EMAIL 
+2. HEROKU_API_KEY
+3. HEROKU_APP_NAME
+
+
 
 Build Docker Image 
 ```
@@ -42,3 +48,21 @@ To list docker image
 ```
 docker images
 ```
+
+
+Run docker image 
+```
+docker run -p 8080:8080 -e PORT=8080 ddbc14215046
+```
+
+To check running container in docker 
+```
+docker ps
+```
+
+
+To stop docker image
+```
+docker stop <container_id>
+```
+
